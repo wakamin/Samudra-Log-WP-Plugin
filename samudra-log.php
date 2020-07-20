@@ -6,7 +6,7 @@
  * Description: Write log for debugging
  * Version: 1.0.0
  * Author: Kasmin
- * Author URI: https://www.samudradigital.com
+ * Author URI: https://github.com/wakamin
  * License: GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: samudra_log
