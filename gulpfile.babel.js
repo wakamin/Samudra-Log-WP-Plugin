@@ -9,8 +9,9 @@ const paths = {
             "!.vscode",
             "!node_modules{,/**}",
             "!packaged{,/**}",
+            "!.git{,/**}",
             "!.babelrc",
-            "!.gitigonre",
+            "!.gitignore",
             "!gulpfile.babel.js",
             "!package.json",
             "!package-lock.json",
@@ -23,7 +24,7 @@ const paths = {
 
 export const compress = () => {
     return gulp
-        .src(paths.package.src, { base: "../" })
+        .src(paths.package.src, { base: "../", dot: true })
         .pipe(zip(`${info.name}.zip`))
         .pipe(gulp.dest(paths.package.dest));
 };
