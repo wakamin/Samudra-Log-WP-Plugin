@@ -4,18 +4,18 @@ Donate link: https://paypal.me/wakamin
 Tags: logging, debugging
 Requires at least: 4.7
 Tested up to: 5.4
-Stable tag: 4.3
+Stable tag: 1.0.0
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Write log for debugging.
+Write log for debugging Wordpress site.
 
 == Description ==
 
 ## How to Use?
 Use this function to write log.
-```php
+`
 // Variable value can be string, array, or object
 $variable = 'Variable value';
 
@@ -24,16 +24,16 @@ sd_log($variable);
 
 // Log file will be in /wp-content/plugins/samudra-log/log/my-file.log
 sd_log($variable, 'my-file');
-```
+`
 
 ## Restrict direct access to log file
 If you are using Nginx, put this code inside your server block.
-```nginx
+`
 location ~ /wp-content/plugins/samudra-log/log/.*\.log$ {
     deny all;
     return 404;
 }
-```
+`
 
 == Frequently Asked Questions ==
 
