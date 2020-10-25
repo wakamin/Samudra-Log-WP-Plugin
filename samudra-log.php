@@ -4,7 +4,7 @@
  * Plugin Name: Samudra Log
  * Plugin URI: https://www.samudradigital.com
  * Description: Write log for debugging
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Kasmin
  * Author URI: https://github.com/wakamin
  * License: GPL-2.0+
